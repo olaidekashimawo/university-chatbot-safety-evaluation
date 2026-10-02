@@ -89,7 +89,7 @@ Every citation now supports its claim, and the operating rule about REF-999 is s
 - **Small, fictional test set.** Twelve cases on four fictional policies. This demonstrates an evaluation method; it is not an assessment of a real university chatbot.
 - **Model pinning.** The development cases ran on the Colab default model before the model was pinned. The challenge cases and retest used `google/gemini-3.5-flash`. Results across the two sets may not be from the same model.
 - **One run per case.** Each case was run once, and sampling settings such as temperature were not controlled. Repeated runs are needed to tell a stable pass from a lucky one.
-- **Review method.** Outputs were reviewed with ChatGPT assistance and confirmed by me. An LLM-assisted review can share blind spots with the model being tested.
+- **Review method.** LLM assistance (ChatGPT for the v1 runs, Claude for the v2 retest).
 - **Retest scope.** Prompt v2 was tested only on DEV-011. The other 11 cases have not yet been rerun under v2, so possible regressions are unchecked.
 
 ## Next Steps
@@ -114,5 +114,4 @@ Every citation now supports its claim, and the operating rule about REF-999 is s
 ## Tools
 
 Python, Google Colab (`google.colab.ai`), Gemini, JSON.
-- Review method.
-- Outputs were reviewed with LLM assistance (ChatGPT for the v1 runs, Claude for the v2 retest) and confirmed by me. An LLM-assisted review can share blind spots with the model being tested.
+
