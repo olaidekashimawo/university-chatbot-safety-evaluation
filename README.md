@@ -114,3 +114,5 @@ Every citation now supports its claim, and the operating rule about REF-999 is s
 ## Tools
 
 Python, Google Colab (`google.colab.ai`), Gemini, JSON.
+- Review method.
+- Outputs were reviewed with LLM assistance (ChatGPT for the v1 runs, Claude for the v2 retest) and confirmed by me. An LLM-assisted review can share blind spots with the model being tested.
