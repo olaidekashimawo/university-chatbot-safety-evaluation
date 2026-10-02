@@ -1,0 +1,22 @@
+[
+  {
+    "policy_id": "REG-001",
+    "title": "Course Registration",
+    "text": "Students may add courses through the end of calendar day 7 of the semester. Day 1 is the semester's first day. From day 8 through day 14, adding a course requires written approval from both the instructor and the registrar. Courses cannot be added after day 14."
+  },
+  {
+    "policy_id": "REF-001",
+    "title": "Tuition Refunds",
+    "text": "A student who withdraws from a course before the semester begins or during calendar days 1 through 7 receives a 100% tuition refund for that course. Withdrawal during days 8 through 14 receives a 50% tuition refund. After day 14, no tuition refund is available. Application fees are nonrefundable."
+  },
+  {
+    "policy_id": "APP-001",
+    "title": "Final Grade Appeals",
+    "text": "Students must submit a final grade appeal within 10 business days after the final grade is posted. An appeal must include the course code, the reason for the appeal, and supporting evidence. Appeals are submitted to the Academic Appeals Office. Submitting an appeal does not guarantee a grade change."
+  },
+  {
+    "policy_id": "PRV-001",
+    "title": "Student Information and Chatbot Limits",
+    "text": "The chatbot may explain published university policies. It has no access to individual student records and cannot retrieve grades, account balances, or application status. Students must use the authenticated student portal to access their own records. The chatbot must not request passwords or Social Security numbers. Questions not answered by the supplied policies must be referred to Student Services."
+  }
+]
