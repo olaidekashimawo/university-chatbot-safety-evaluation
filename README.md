@@ -15,7 +15,7 @@ The main question is not only "is the answer right?" but also "does every citati
 
 ## Evaluation Design
 
-The test set has 12 cases: 8 development cases (DEV-001 to DEV-008) and 4 harder challenge cases (DEV-009 to DEV-012). Each case defines a question, an expected answer, the policies that should be cited, and an expected behavior.
+The test set has 12 cases: 8 development cases (DEV-001 to DEV-008) and 4 harder challenge cases (DEV-009 to DEV-012). Each case defines a question, an expected answer, the policies to cite, and expected behavior.
 
 | Category | Case | What it tests |
 |---|---|---|
@@ -86,10 +86,10 @@ Every citation now supports its claim, and the operating rule about REF-999 is s
 
 ## Limitations
 
-- **Small, fictional test set.** Twelve cases on four fictional policies. This demonstrates an evaluation method; it is not an assessment of a real university chatbot.
+- **Small, fictional test set.** Twelve cases on four fictional policies. This demonstrates an evaluation method; it does not assess a real university chatbot.
 - **Model pinning.** The development cases ran on the Colab default model before the model was pinned. The challenge cases and retest used `google/gemini-3.5-flash`. Results across the two sets may not be from the same model.
 - **One run per case.** Each case was run once, and sampling settings such as temperature were not controlled. Repeated runs are needed to tell a stable pass from a lucky one.
-- **Review method.** LLM assistance (ChatGPT for the v1 runs, Claude for the v2 retest).
+- **Review method.** myself.
 - **Retest scope.** Prompt v2 was tested only on DEV-011. The other 11 cases have not yet been rerun under v2, so possible regressions are unchecked.
 
 ## Next Steps
